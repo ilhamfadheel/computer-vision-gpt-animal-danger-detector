@@ -11,7 +11,7 @@ The Animal Danger Detector is a web application that combines the power of compu
 ## Features
 
 - Image upload functionality
-- Animal classification using a computer vision API
+- Animal classification using a computer vision API (HuggingFace Inference)
 - Danger assessment using OpenAI's GPT model
 - Responsive UI built with Next.js and Tailwind CSS
 
@@ -22,7 +22,7 @@ The Animal Danger Detector is a web application that combines the power of compu
 - Tailwind CSS
 - Axios for API requests
 - OpenAI API
-- Computer Vision API (to be specified)
+- Computer Vision API using HuggingFace Inference
 
 ## Setup
 
