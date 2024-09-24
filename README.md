@@ -4,6 +4,8 @@ This Next.js application allows users to upload images of animals and determines
 
 ## Description
 
+![Website Screenshot](./site.png)
+
 The Animal Danger Detector is a web application that combines the power of computer vision and natural language processing to identify animals in uploaded images and assess their potential danger to humans. This project was created as part of a learning exercise to explore the integration of various AI technologies in a modern web application.
 
 ## Features
