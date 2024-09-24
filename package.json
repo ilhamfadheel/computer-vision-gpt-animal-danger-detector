@@ -1,7 +1,8 @@
 {
   "name": "computer-vision-gpt-animal-danger-detector",
   "version": "0.1.0",
-  "private": true,
+  "author": "Ilham Fadhil",
+  "description": "A Next.js app that uses computer vision and AI to identify animals in images and assess their potential danger",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,18 +10,31 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@huggingface/inference": "^2.8.0",
+    "axios": "^1.7.7",
+    "next": "14.2.13",
+    "openai": "^4.63.0",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.13"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.13"
-  }
+    "typescript": "^5"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "computer-vision",
+    "openai",
+    "animal-classification",
+    "danger-assessment"
+  ]
 }

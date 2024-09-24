@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Animal Danger Detector
 
-## Getting Started
+This Next.js application allows users to upload images of animals and determines whether the animal is dangerous using computer vision and AI.
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The Animal Danger Detector is a web application that combines the power of computer vision and natural language processing to identify animals in uploaded images and assess their potential danger to humans. This project was created as part of a learning exercise to explore the integration of various AI technologies in a modern web application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Image upload functionality
+- Animal classification using a computer vision API
+- Danger assessment using OpenAI's GPT model
+- Responsive UI built with Next.js and Tailwind CSS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Technologies Used
 
-## Learn More
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Axios for API requests
+- OpenAI API
+- Computer Vision API (to be specified)
 
-To learn more about Next.js, take a look at the following resources:
+## Setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Set up environment variables in `.env.local`:
+   ```
+   OPENAI_API_KEY=your_openai_api_key_here
+   HUGGINGFACE_API_KEY=your_huggingface_api_key_here
+   ```
+4. Run the development server: `npm run dev`
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+1. Upload an image of an animal using the provided form.
+2. Click the "Upload and Analyze" button.
+3. Wait for the application to process the image and provide results.
+4. View the classification result and danger assessment.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open source and available under the [MIT License](LICENSE).
